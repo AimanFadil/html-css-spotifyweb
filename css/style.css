@@ -1,0 +1,57 @@
+/* UTILITIES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    height: 75px;
+    background-color: yellow;
+    width: 100%;
+}
+#main-section{
+    height: calc(100vh - 75px);
+    
+}
+
+.cont-mainsection{
+    display: flex;
+    height: 100%;
+    
+}
+
+.content{
+    width: calc(100vw - 200px);
+    background-color: blue;
+    overflow-y: auto;
+    margin-top: 75px;
+}
+
+#player{
+    height: 75px;
+    background-color: rgb(97, 95, 95);
+}
+
+#barra-late{
+    width: 200px;
+    background-color: black;
+    z-index: 1;
+}
+
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 50%;
+    margin: 10px;
+    background-color: red;
+    height: 100px;
+}
