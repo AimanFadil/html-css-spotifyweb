@@ -51,26 +51,37 @@ header{
 .col{
     width: calc(100% / 6 - 20px);
     margin: 10px;
-    background-color: red;
+
     height: 100px;
 }
 
 .barra-alta{
-    display: flex;
-    flex-direction: column;
+   width: 100%;
 }
 
-.barra-bassa{
+.barra-bassa{ 
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: 250px;
+    
+}
+
+.profile-img{
+    background-color: grey;
+    border-radius: 50%;
 }
 
 .space-bet{
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 .img-items{
-    width: 20%;
+    width: 15%;
 }
 
 .padding-col{
@@ -81,6 +92,32 @@ header{
     padding-top: 15px;
 }
 
+.direction-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.img-album{
+    width: 100%;
+}
+
+.margin-top{
+    margin-top: 200px;
+}
+
+.img-artist{
+    width: 100%;
+    border-radius: 50%;
+}
 /* BG & COLOR*/
 
 .bg-blackside{
