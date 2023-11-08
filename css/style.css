@@ -69,10 +69,12 @@ header{
 
 .space-bet{
     justify-content: space-between;
+    display: flex;
 }
 
 .space-around{
     justify-content: space-around;
+    display: flex;
 }
 
 .img-items{
@@ -90,6 +92,11 @@ header{
 .direction-row{
     display: flex;
     flex-direction: row;
+}
+
+.direction-column{
+    display: flex;
+    flex-direction: column;
 }
 
 .center{
@@ -117,6 +124,31 @@ header{
 .inline{
     display: inline;
 }
+
+.align{
+    align-self: center;
+}
+
+/* hover */
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.over-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.over-img:hover .overlay{
+    display: block;
+}
+
+
 /* BG & COLOR*/
 
 .bg-blackside{
@@ -164,3 +196,9 @@ li{
 }
 
 /* FOOTER */
+
+footer{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
