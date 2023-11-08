@@ -3,19 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPOTIFY</title>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <p>Barra trasparente</p>
+        <p class="left grey-text">EFFETTUA L'UPGRADE</p>
     </header>
     <!-- MAIN -->
     <main>
         <div id="main-section">
             <div class="cont-mainsection">
-                <div id="barra-late"></div>
+                <div class="barra-late space-bet padding-col">
+                    <img src="img/logo.svg" alt="LOGO">
+                    <div class="barra-alta ">
+                        <div>
+                            <img class="img-items padding-top" src="img/home.svg" alt="HOME">
+                            <span class="grey-text">HOME</span>
+                        </div>
+                        <div>
+                            <img class="img-items padding-top" src="img/search.svg" alt="CERCA">
+                            <span class="grey-text">HOME</span>
+                        </div>
+                        <div>
+                            <img class="img-items padding-top" src="img/libreria.svg" alt="LIBRERIA">
+                            <span class="grey-text">HOME</span>
+                        </div>
+                        <h3 class="padding-top white-text">PLAYLIST</h3>
+                        <div class="padding-top">
+                            <i class="fa-solid fa-square-plus fa-2xl" style="color: white;"></i>
+                            <span class="grey-text"> Crea la tua Playlist</span>
+                        </div>
+                        <div class="padding-top">
+                            <ul class="grey-text ul-playlist">
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="barra-bassa">
+                        <div>
+                            <img class="img-items" src="img/download.svg" alt="DOWNLOAD">
+                            <span class="grey-text">Installa app</span>
+                            <hr>
+                        </div>
+                        <div>
+                            <img class="img-items" src="img/profile.svg" alt="Profile">
+                            <span class="white-text">John Doe</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="content">
                     <div class="container">
                         <div class="row">
@@ -27,13 +70,25 @@
                             <div class="col"></div>
                         </div>
                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <!-- FOOTER -->
     <footer>
-        <div id="player"></div>
+        <div class="player bg-player"></div>
     </footer>
 </body>
 </html>

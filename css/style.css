@@ -9,7 +9,7 @@
 header{
     position: fixed;
     height: 75px;
-    background-color: yellow;
+    background-color: rgba(8,11,18,255);
     width: 100%;
 }
 #main-section{
@@ -25,19 +25,18 @@ header{
 
 .content{
     width: calc(100vw - 200px);
-    background-color: blue;
+    background-color: rgba(20,25,34,255);
     overflow-y: auto;
     margin-top: 75px;
 }
 
-#player{
+.player{
     height: 75px;
-    background-color: rgb(97, 95, 95);
 }
 
-#barra-late{
+.barra-late{
     width: 200px;
-    background-color: black;
+    background-color: rgba(0,0,0,255);
     z-index: 1;
 }
 
@@ -50,8 +49,82 @@ header{
 }
 
 .col{
-    width: 50%;
+    width: calc(100% / 6 - 20px);
     margin: 10px;
     background-color: red;
     height: 100px;
 }
+
+.barra-alta{
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-bassa{
+    display: flex;
+    flex-direction: column;
+}
+
+.space-bet{
+    justify-content: space-between;
+}
+
+.img-items{
+    width: 20%;
+}
+
+.padding-col{
+    padding: 15px;
+}
+
+.padding-top{
+    padding-top: 15px;
+}
+
+/* BG & COLOR*/
+
+.bg-blackside{
+    background-color: rgba(0,0,0,255);
+}
+
+.bg-blackmain{
+    background-color: rgba(20,25,34,255);
+}
+
+.bg-player{
+    background-color: rgb(40,40,40);
+}
+
+.bg-header{
+    background-color: rgba(8,11,18,255);
+}
+
+.grey-text{
+    color: rgba(117,120,125,255);
+}
+
+.white-text{
+    color: white;
+    font-weight: 600;
+    line-height: normal;
+}
+
+li{
+    list-style: none;
+    padding-top: 15px;
+}
+
+.ul-playlist{
+    overflow-y: auto;
+}
+
+
+/* HEADER */
+
+.left{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+/* FOOTER */
