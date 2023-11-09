@@ -60,6 +60,11 @@ header{
     
 }
 
+.col{
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    
+}
 .barra-alta{
    width: 100%;
 }
@@ -144,6 +149,11 @@ header{
     padding: 10px;
     
 }
+
+.center-li{
+    justify-content: center;
+    display: flex;
+}
 /* hover */
 
 
@@ -185,10 +195,9 @@ li{
     overflow-y: auto;
 }
 
-.center-li{
-
+.height{
+    height: 215px;
 }
-
 /* HEADER */
 
 .right{
@@ -288,6 +297,13 @@ footer{
 
     .img-items{
         width: 60%;
+    }
+
+    .content{
+        width: calc(100vw - 75px);
+        background-color: rgba(20,25,34,255);
+        overflow-y: auto;
+        margin-top: 75px;
     }
     
     
