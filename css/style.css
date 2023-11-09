@@ -60,7 +60,7 @@ header{
     
 }
 
-.col{
+.col-player{
     width: calc(100% / 6 - 20px);
     margin: 10px;
     
@@ -223,6 +223,11 @@ footer{
     width: 15%;
 }
 
+.block{
+    display: none;
+}
+
+
 /* -------------------------------------------- */
 
 @media all and (max-width: 1200px) and (min-width: 768px) {
@@ -252,6 +257,8 @@ footer{
         margin: 10px;
         
     }
+
+    
     
 }
 
@@ -279,8 +286,6 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    
-        
     }
 
     .barra-alta{
@@ -305,6 +310,17 @@ footer{
         overflow-y: auto;
         margin-top: 75px;
     }
+
+    .block{
+        display: block;
+        width: 70%;
+    }
     
+    .col-player{
+        width: calc(100% / 6 - 20px);
+        
+    }
+
+
     
 }
