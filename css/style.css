@@ -30,6 +30,7 @@ header{
     margin-top: 75px;
 }
 
+
 .barra-late{
     width: 200px;
     background-color: rgba(0,0,0,255);
@@ -38,6 +39,11 @@ header{
     flex-direction: column;
     justify-content: space-between;
     
+}
+
+.bar-play{
+    width: 250px;
+
 }
 
 .container{
@@ -179,6 +185,9 @@ li{
     overflow-y: auto;
 }
 
+.center-li{
+
+}
 
 /* HEADER */
 
@@ -199,4 +208,87 @@ footer{
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+.img-footer{
+    width: 15%;
+}
+
+/* -------------------------------------------- */
+
+@media all and (max-width: 1200px) and (min-width: 768px) {
+    .direction-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: calc(100% / 4 - 20px);
+        margin: 10px;
+        
+    }
+    
+}
+
+@media all and (max-width: 768px) and (min-width: 576px) {
+    .direction-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+        
+    }
+    
+}
+
+@media all and (max-width: 576px) and (min-width: 0px) {
+    .direction-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+        
+    }
+
+    .none{
+        display: none;
+    }
+
+    .barra-late{
+        width: 75px;
+        background-color: rgba(0,0,0,255);
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        
+    }
+
+    .barra-alta{
+        width: 100%;
+        justify-content: center;
+    }
+     
+    .barra-bassa{ 
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         
+    }
+
+    .img-items{
+        width: 60%;
+    }
+    
+    
 }
