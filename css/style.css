@@ -24,7 +24,7 @@ header{
 }
 
 .content{
-    width: calc(100vw - 200px);
+    width: calc(100vw - 75px);
     background-color: rgba(20,25,34,255);
     overflow-y: auto;
     margin-top: 75px;
@@ -52,6 +52,10 @@ header{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.row-nowrap{
+    display: flex;
 }
 
 .col{
@@ -154,6 +158,8 @@ header{
     justify-content: center;
     display: flex;
 }
+
+
 /* hover */
 
 
@@ -196,7 +202,7 @@ li{
 }
 
 .height{
-    height: 215px;
+    height: 212px;
 }
 /* HEADER */
 
